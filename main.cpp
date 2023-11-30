@@ -24,7 +24,7 @@ void load_script(const char* filename, bool show_script = false) {
     try {
         f = fopen(filename, "rb");
         if (!f) {
-            cerr << "Error opening file: " << filename << "\nFile does not exist." << endl;
+            cerr << "Error al abrir: " << filename << "\nFile no existe o  no es encontrada." << endl;
             return;
         }
 
@@ -36,7 +36,7 @@ void load_script(const char* filename, bool show_script = false) {
         }
 
         if (ferror(f)) {
-            cerr << "Error reading file: " << filename << endl;
+            cerr << "Error al leer archivo: " << filename << endl;
             return;
         }
 
@@ -52,7 +52,7 @@ void load_script(const char* filename, bool show_script = false) {
         consoleBox->set_text(script);
     }
     catch (...) {
-        cerr << "Error during file reading." << endl;
+        cerr << "Error durante lectura del archivo." << endl;
         if (f) {
             fclose(f);
         }
@@ -61,12 +61,8 @@ void load_script(const char* filename, bool show_script = false) {
 
 void load_script() {
     char filename[500];
-    printf("Archivo: ");
-    if (scanf("%499s", filename) != 1) {
-        cerr << "Error reading filename." << endl;
-        return;
-    }
-
+    printf("Archivo: \n");
+    scanf("%499s", filename);
     load_script(filename, true);
 }
 
