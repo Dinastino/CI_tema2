@@ -7,4 +7,5 @@ add_executable(CI_tema2
         .idea/.gitignore
         .idea/workspace.xml
         main.cpp
-        README.md)
+        README.md
+)

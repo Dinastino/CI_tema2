@@ -22,7 +22,7 @@ void load_script(const char* filename, bool show_script = false){
     try {
         f = fopen(filename, "rb");
         if (!f){
-            cerr << "error de apbertura" << filename << endl;
+            cerr << "error de abertura: \n" << filename << endl;
             return;
         }
         int c;
@@ -50,5 +50,12 @@ void load_script(const char* filename, bool show_script = false){
 
 void load_script(){
     char filename[500];
-    printf("Archivo: \n")
+    printf("Archivo: \n");
+    scanf("%499s", filename);
+    load_script(filename, true);
+}
+
+int main(){
+    load_script();
+    return 0;
 }
