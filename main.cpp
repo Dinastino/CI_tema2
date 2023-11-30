@@ -4,7 +4,7 @@
 using namespace  std;
 struct ColorConsole{
     static constexpr auto fg_blue = "\033[34m";
-    static constexpr auto fg_white = "\033[47m";
+    static constexpr auto bg_white = "\033[47m";
 };
 
 struct ConsoleBox{
@@ -31,6 +31,11 @@ void load_script(const char* filename, bool show_script = false){
             buf[c] = 0;
             script.append(buf);
         }
-
+        fclose(f);
+        f = nullptr;
+        if (show_script){
+            cout << ColorConsole::fg_blue << ColorConsole::bg_white;
+            cout << script << endl;
+        }
     }
 }
