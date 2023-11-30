@@ -1,0 +1,3 @@
+C:/Users/carlo/Documents/GitHub/CI_tema2/cmake-build-debug/CMakeFiles/CI_tema2.dir
+C:/Users/carlo/Documents/GitHub/CI_tema2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/carlo/Documents/GitHub/CI_tema2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
