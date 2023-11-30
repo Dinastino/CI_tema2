@@ -55,12 +55,6 @@ build CMakeFiles/CI_tema2.dir/main.cpp.obj: CXX_COMPILER__CI_tema2_unscanned_Deb
   OBJECT_DIR = CMakeFiles\CI_tema2.dir
   OBJECT_FILE_DIR = CMakeFiles\CI_tema2.dir
 
-build CMakeFiles/CI_tema2.dir/main.c.obj: C_COMPILER__CI_tema2_unscanned_Debug C$:/Users/carlo/Documents/GitHub/CI_tema2/main.c || cmake_object_order_depends_target_CI_tema2
-  DEP_FILE = CMakeFiles\CI_tema2.dir\main.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CI_tema2.dir
-  OBJECT_FILE_DIR = CMakeFiles\CI_tema2.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CI_tema2
@@ -69,7 +63,7 @@ build CMakeFiles/CI_tema2.dir/main.c.obj: C_COMPILER__CI_tema2_unscanned_Debug C
 #############################################
 # Link the executable CI_tema2.exe
 
-build CI_tema2.exe: CXX_EXECUTABLE_LINKER__CI_tema2_Debug CMakeFiles/CI_tema2.dir/main.cpp.obj CMakeFiles/CI_tema2.dir/main.c.obj
+build CI_tema2.exe: CXX_EXECUTABLE_LINKER__CI_tema2_Debug CMakeFiles/CI_tema2.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CI_tema2.dir

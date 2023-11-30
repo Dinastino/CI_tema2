@@ -1,3 +1,11 @@
 # ninja log v5
-1	837	7230461369563207	CMakeFiles/CI_tema2.dir/main.cpp.obj	7a18a56ecf87ce2f
 7	812	7230464237090846	CMakeFiles/CI_tema2.dir/main.cpp.obj	7a18a56ecf87ce2f
+2	546	7230467433222282	build.ninja	3e2acf5cdec69442
+11	602	7230467441572300	CMakeFiles/CI_tema2.dir/main.cpp.obj	7a18a56ecf87ce2f
+603	760	7230467443070331	CI_tema2.exe	920e34da2d783294
+7	508	7230468553147307	CMakeFiles/CI_tema2.dir/main.cpp.obj	7a18a56ecf87ce2f
+510	706	7230468554995102	CI_tema2.exe	920e34da2d783294
+4	622	7230468708532960	CMakeFiles/CI_tema2.dir/main.cpp.obj	7a18a56ecf87ce2f
+623	835	7230468710475877	CI_tema2.exe	920e34da2d783294
+5	625	7230468861765209	CMakeFiles/CI_tema2.dir/main.cpp.obj	7a18a56ecf87ce2f
+627	824	7230468863557277	CI_tema2.exe	920e34da2d783294
