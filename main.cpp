@@ -41,6 +41,14 @@ void load_script(const char* filename, bool show_script = false){
         consoleBox->set_text(script);
     }
     catch (...){
-
+        cerr << "Error durante la lectura" << endl;
+        if(f){
+            fclose(f);
+        }
     }
+}
+
+void load_script(){
+    char filename[500];
+    printf("Archivo: \n")
 }
