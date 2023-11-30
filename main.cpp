@@ -19,5 +19,11 @@ ConsoleBox *consoleBox = new ConsoleBox;
 void load_script(const char* filename, bool show_script = false){
     string script;
     FILE* f = nullptr;
-
+    try {
+        f = fopen(filename, "rb");
+        if (!f){
+            cerr << "error de apbertura" << filename << endl;
+            return;
+        }
+    }
 }
